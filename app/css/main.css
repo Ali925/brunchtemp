@@ -1,0 +1,636 @@
+    @font-face {
+            font-family: "SegoeUIRegular";
+            src: url("../fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.eot");
+            src: url("../fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
+            url("../fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.woff") format("woff"),
+            url("../fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+            font-style: normal;
+            font-weight: normal;
+    }
+
+    @font-face {
+            font-family: "SegoeUIBold";
+            src: url("../fonts/SegoeUI/SegoeUIBold/SegoeUIBold.eot");
+            src: url("../fonts/SegoeUI/SegoeUIBold/SegoeUIBold.eot?#iefix")format("embedded-opentype"),
+            url("../fonts/SegoeUI/SegoeUIBold/SegoeUIBold.woff") format("woff"),
+            url("../fonts/SegoeUI/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+            font-style: normal;
+            font-weight: normal;
+    }
+
+    @font-face {
+            font-family: "SegoeUIItalic";
+            src: url("../fonts/SegoeUI/SegoeUIItalic/SegoeUIItalic.eot");
+            src: url("../fonts/SegoeUI/SegoeUIItalic/SegoeUIItalic.eot?#iefix")format("embedded-opentype"),
+            url("../fonts/SegoeUI/SegoeUIItalic/SegoeUIItalic.woff") format("woff"),
+            url("../fonts/SegoeUI/SegoeUIItalic/SegoeUIItalic.ttf") format("truetype");
+            font-style: normal;
+            font-weight: normal;
+    }
+
+    @font-face {
+            font-family: "SegoeUILight";
+            src: url("../fonts/SegoeUI/SegoeUILight/SegoeUILight.eot");
+            src: url("../fonts/SegoeUI/SegoeUILight/SegoeUILight.eot?#iefix")format("embedded-opentype"),
+            url("../fonts/SegoeUI/SegoeUILight/SegoeUILight.woff") format("woff"),
+            url("../fonts/SegoeUI/SegoeUILight/SegoeUILight.ttf") format("truetype");
+            font-style: normal;
+            font-weight: normal;
+    }
+
+    @font-face {
+            font-family: "SegoeUISemiBold";
+            src: url("../fonts/SegoeUI/SegoeUISemiBold/SegoeUISemiBold.eot");
+            src: url("../fonts/SegoeUI/SegoeUISemiBold/SegoeUISemiBold.eot?#iefix")format("embedded-opentype"),
+            url("../fonts/SegoeUI/SegoeUISemiBold/SegoeUISemiBold.woff") format("woff"),
+            url("../fonts/SegoeUI/SegoeUISemiBold/SegoeUISemiBold.ttf") format("truetype");
+            font-style: normal;
+            font-weight: normal;
+    }
+
+    @font-face {
+            font-family: "FuturaRegular";
+            src: url("../fonts/Futura/FuturaRegular/FuturaRegular.eot");
+            src: url("../fonts/Futura/FuturaRegular/FuturaRegular.eot?#iefix")format("embedded-opentype"),
+            url("../fonts/Futura/FuturaRegular/FuturaRegular.woff") format("woff"),
+            url("../fonts/Futura/FuturaRegular/FuturaRegular.ttf") format("truetype");
+            font-style: normal;
+            font-weight: normal;
+    }
+
+    @font-face {
+            font-family: "FuturaBold";
+            src: url("../fonts/Futura/FuturaBold/FuturaBold.eot");
+            src: url("../fonts/Futura/FuturaBold/FuturaBold.eot?#iefix")format("embedded-opentype"),
+            url("../fonts/Futura/FuturaBold/FuturaBold.woff") format("woff"),
+            url("../fonts/Futura/FuturaBold/FuturaBold.ttf") format("truetype");
+            font-style: normal;
+            font-weight: normal;
+    }
+
+    @font-face {
+            font-family: "FuturaBook";
+            src: url("../fonts/FuturaBook/FuturaPTCond-Book.eot");
+            src: url("../fonts/FuturaBook/FuturaPTCond-Book.eot?#iefix")format("embedded-opentype"),
+            url("../fonts/FuturaBook/FuturaPTCond-Book.woff") format("woff"),
+            url("../fonts/FuturaBook/FuturaPTCond-Book.ttf") format("truetype");
+            font-style: normal;
+            font-weight: normal;
+    }
+
+body{
+	width: 100%;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+header{
+	height: 919px;
+}
+
+header > .left-block{
+	height: inherit;
+    background-color: #f5b000;
+}
+
+header > .right-block{
+	height: inherit;
+    background-repeat: no-repeat;
+	background-image: url("../img/bg-photo1.png");
+	background-size: cover;
+}
+
+header > .right-block > .logo-img{
+	position: relative;
+    top: 260px;
+    clear: both;
+}
+
+.nav-buttons{
+    margin-top: 30px;
+    margin-right: 100px;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.nav-buttons button.navbar-toggle{
+	display: inline;
+}
+
+.nav-buttons button.navbar-toggle > .icon-bar{
+	background-color: white;
+    position: relative;
+    width: 40px;
+    height: 6.6px;
+    margin-bottom: 6px;
+    border-radius: 0px;
+}
+
+.nav-buttons > .nav-lang-btn{
+	background-color: #555555;
+    border: none;
+    text-transform: capitalize;
+    color: white;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-family: "SegoeUILight";
+}
+
+.nav-buttons > .nav-signin-btn{
+	background-color: #32acb2;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 3.5px;
+    padding-bottom: 2.85px;
+    margin-left: 26px;
+    font-family: "FuturaBook";
+    font-size: 18px;
+}
+
+.nav-buttons > button.navbar-toggle{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    margin-left: 30px;
+    margin-top: -32px;
+    border: none;
+}
+
+.logo-img-block > img{
+	width: 296px;
+}
+
+.left-block-content{
+    width: 447px;
+    text-align: start;
+    padding-left: 105px;
+    position: relative;
+    top: 210px;
+}
+
+.left-block-content > h1{
+    font-size: 90px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "FuturaBook";
+    line-height: 72px;
+    margin-bottom: 23px;
+}
+
+.left-block-content > p{
+    color: rgba(255,255,255,.8);
+    font-size: 22px;
+    font-family: "SegoeUILight";
+    line-height: 30px;
+    margin-bottom: 34px;
+    margin-top: 0px;
+}
+
+.left-block-content > .signup-btn{
+    background-color: #781866;
+    border: none;
+    color: rgba(255,255,255,.75);
+    text-transform: uppercase;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 0px;
+    font-family: "SegoeUILight";
+}
+
+.images-block > h2{
+    text-transform: uppercase;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-family: "FuturaBook";
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.images-block .row{
+    margin-bottom: 87px;
+}
+
+.images-block .thumb-image{
+    text-align: left;
+    display: inline-block;
+    float: left;
+    width: 33%;
+    padding-left: 74px;
+    padding-right: 74px;
+    min-width: 370px;
+}
+
+.images-block .thumb-image > .thumb-image-content{
+    max-width: 266px;
+    margin: 0 auto;
+}
+
+.images-block .thumb-image h5{
+    text-transform: uppercase;
+    font-size: 27px;
+    font-weight: 600;
+    font-family: "FuturaBook";
+    margin-bottom: 5px;
+}
+
+.images-block .thumb-image p{
+    font-family: "SegoeUIRegular";
+    font-size: 14px;
+    word-spacing: -1px;
+    line-height: 24px;
+}
+
+.images-block > .row > .thumb-image:first-child{
+    padding-left: 118px;
+    padding-right: 74px;
+}
+
+.images-block > .row > .thumb-image:last-child{
+    padding-right: 118px;
+    padding-left: 74px;
+}
+
+.info-block > h2{
+    text-transform: uppercase;
+    font-family: "FuturaBook";
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.info-block > p{
+    padding-left: 118px;
+    padding-right: 118px;
+    text-align: left;
+    font-size: 24px;
+    word-spacing: 1px;
+    line-height: 38px;
+    margin-top: 53px;
+    margin-bottom: 0;
+    font-family: "SegoeUILight";
+}
+
+.info-block > button{
+    margin-top: 58px;
+    background-color: #781866;
+    border: none;
+    text-transform: uppercase;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: rgba(255,255,255,.75);
+    font-weight: 100;
+    font-size: 16px;
+    font-family: "SegoeUILight";
+}
+
+footer{
+    background-color: #232427;
+    margin-top: 132px;
+    height: 100%;
+}
+
+.footer-logo{
+    padding-top: 83px;
+    padding-bottom: 83px;
+}
+
+.footer-logo-block{
+    height: 81px;
+}
+
+.footer-logo-block > img{
+    height: 100%;
+}
+
+.footer-nav{
+    margin-bottom: 190px;
+}
+
+.footer-nav > li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-nav > li:first-child{
+    padding-top: 0px;
+}
+
+.footer-nav > li:last-child{
+    padding-bottom: 0px;
+}
+
+.footer-nav > li > a{
+    color: rgba(255,255,255,.8);
+    font-size: 15px;
+    font-weight: 100;
+    font-family: "SegoeUILight";
+}
+
+.footer-nav > li > a:focus, .footer-nav > li > a:hover{
+    color: rgba(255,255,255,.8);
+    text-decoration: none;
+}
+
+.footer-nav{
+	list-style: none;
+    padding-left: 3px;
+}
+
+.mobile-logo-img {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.images-block-header-m{
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.images-block-thumbs-m{
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background:#2b3941;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    margin-left: 25%;
+    top:10%;
+    width: 50%;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.overlay-content a {
+    text-decoration: none;
+    padding:0 8px;
+    font-size:48px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Futura Condensed Bold';
+}
+
+.overlay-content a:hover, .overlay-content a:focus{
+    color:#32acb2;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 35px;
+    font-size: 40px;
+    color:#fff !important;
+}
+
+.menu-logo{
+    max-width:1200px;
+    margin:20px auto;
+}
+
+.nav-buttons select{
+    position: absolute;
+    top: 0px;
+    right: 95px;
+    opacity: 0;
+    height: 33px;
+    cursor: pointer;
+    width: 113px;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 992px){
+    .images-block .thumb-image{
+        min-width: 351px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    main{
+        overflow-x: hidden;
+    }
+
+    header{
+        height: 1012px;
+    }
+
+    header > .right-block{
+        display: none;
+    }
+
+    header > .left-block{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        background-color: #32acb2;
+    }
+
+    .nav-buttons{
+        right: auto;
+        left: 0;
+        width: 305px;
+        text-align: left;
+        margin-top: 28px;
+    }
+
+    .nav-buttons > button.navbar-toggle{
+        float: left;
+        margin-top: .5px;
+    }
+
+    .nav-buttons > .nav-signin-btn{
+        float: right;
+        background-color: #ffc700;
+        margin-right: 28px;
+        margin-left: 0px;
+        padding-bottom: 4px;
+    }
+
+    .nav-buttons > .nav-lang-btn{
+        float: right;
+        padding-bottom: 7px;
+    }
+    
+    .mobile-logo-img {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        position: relative;
+        top: -80px;
+        clear: both;
+    }
+
+    .mobile-logo-img-block > img{
+        width: 154px;
+    }
+
+    .left-block-content{
+        padding-left: 30px;
+        max-width: 100%;
+    }
+
+    .left-block-content h1{
+        font-size: 8.05rem;
+    }
+
+    .left-block-content p{
+        max-width: 330px;
+        font-size: 2.2rem;
+    }
+
+    .left-block-content > .signup-btn{
+        background-color: #ffc700;
+    }
+
+    .images-block-header{
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .images-block > h2.images-block-header-m{
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        margin-top: 52px;
+        margin-bottom: 52px;
+    }
+
+    .images-block > h2.images-block-header-m-above{
+        margin-bottom: 0px;
+    }
+
+    .images-block > h2.images-block-header-m-bottom{
+        margin-top: 0px;
+    }
+
+    .images-block-thumbs-d{
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .images-block-thumbs-m{
+        display: block;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .images-block-thumbs-m > .row > .thumb-image{
+        width: 49%;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+    .images-block .thumb-image > .thumb-image-content{
+        max-width: 281px;
+    }
+
+    .images-block .row:last-child{
+        margin-bottom: 36px;    
+    }
+
+    .info-block > p{
+        margin-top: 18px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+    .info-block > button{
+        margin-top: 48px;
+    }
+
+    footer{
+        margin-top: 94px;
+    }
+
+    .footer-logo{
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .footer-nav{
+        margin-bottom: 100px;
+    }
+
+    .nav-buttons select{
+        left: 191px;
+        width: 114px;
+        height: 33px;
+    }
+
+}
+
+@media only screen and (max-width: 709px){
+    .images-block .thumb-image{
+        min-width: 281px;
+    }
+
+    .images-block .thumb-image > .thumb-image-content{
+        max-width: 223px;
+    }
+}
+
+@media only screen and (max-width: 531px){
+    .images-block .thumb-image{
+        min-width: 270px;
+    }
+}
+
+@media only screen and (max-width: 509px){
+    .images-block .thumb-image{
+        min-width: 250px;
+    }
+}
+
+@media only screen and (max-width: 469px){
+    .images-block .thumb-image{
+        min-width: 235px;
+    }
+
+    .overlay a {font-size: 20px}
+      .overlay .closebtn {
+        font-size: 40px;
+        top: 0px;
+        right: 35px;
+      }
+}
+
+@media only screen and (max-width: 439px){
+    .images-block-thumbs-m > .row > .thumb-image{
+        width: 100%;
+    }
+
+    .images-block-thumbs-m > .row > .thumb-image:last-child{
+        margin-top: 90px;
+    }
+}
+

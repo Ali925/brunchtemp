@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Brunch</title>
+	<link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+
+	<script>
+		function openNav() {
+			document.getElementById("myNav").style.width = "100%";
+		}
+
+		function closeNav() {
+			document.getElementById("myNav").style.width = "0%";
+		}
+	</script>
+</head>
+<body>
+
+<main>
+	<header class="container-fluid row">
+		<div class="nav-buttons">
+				<button class="nav-lang-btn">language</button>
+				<select name="languages" id="langs">
+					<option value="" disabled selected>Select language</option>
+					<option value="1">English</option>
+					<option value="2">Portuguese</option>
+					<option value="3">Russian</option>
+					<option value="4">Turkish</option>
+				</select>
+				<button class="nav-signin-btn">sign in</button>
+				<button type="button" onclick="openNav()" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					</button>
+		</div>
+		<div class="container left-block col-md-6">
+			<div class="left-block-content">
+				<div class="mobile-logo-img">
+					<div class="mobile-logo-img-block">
+						<img src="img/logo1.png" alt="logo-mobile">
+					</div>
+				</div>
+				<h1>
+					We are reinventing webinars
+				</h1>
+				<p>
+					GoBrunch is a revolutionary place where you can learn and share best practices through live webinars and virtual meetings... everything for free.
+				</p>
+				<button class="signup-btn">signup for free</button>
+			</div>
+		</div>
+		<div class="container right-block col-md-6">
+			<div class="logo-img">
+				<div class="logo-img-block">
+					<img src="img/logo1.png" alt="logo-main">
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="images-block">
+			<h2 class="images-block-header">
+				It's not only video... It's the whole experience...
+			</h2>
+			<h2 class="images-block-header-m images-block-header-m-above">
+				It's not only video...
+			</h2>
+			<h2 class="images-block-header-m images-block-header-m-bottom">
+				It's the whole experience...
+			</h2>
+			<div class="images-block-thumbs images-block-thumbs-d">
+				<div class="row">
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb1.png" alt="thumb1">
+							</div>
+							<h5>Easy virtual meetings</h5>
+							<p>Start a Virtual Meeting with 3 clicks</p>
+						</div>
+					</div>
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb2.png" alt="thumb2">
+							</div>
+							<h5>Easy events and webinars</h5>
+							<p>Create your own event with multiple sessions in less than 5 minutes using a single form</p>
+						</div>
+					</div>
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb3.png" alt="thumb3">
+							</div>
+							<h5>Customize</h5>
+							<p>Choose the place of your dream to host your event and the ideal room layout for your sessions</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb4.png" alt="thumb4">
+							</div>
+							<h5>Knowledge showcase &trade;</h5>
+							<p>Feature your webinars in our exclusive Knowledge Showcase &trade;</p>
+						</div>
+					</div>
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb5.png" alt="thumb5">
+							</div>
+							<h5>Interact</h5>
+							<p>Navigate through our exclusive BrunchSpots&trade;, observe other users and interact with them as you were in a real event</p>
+						</div>
+					</div>
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb6.png" alt="thumb6">
+							</div>
+							<h5>Live</h5>
+							<p>Broadcast live using only your browser, share your screen at any time and invite other presenters or guests to participate</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb7.png" alt="thumb7">
+							</div>
+							<h5>Breakout sessions</h5>
+							<p>Provide the best breakout sessions experience to your guests, using GoBrunch's multiple rooms feature</p>
+						</div>
+					</div>
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb8.png" alt="thumb8">
+							</div>
+							<h5>Private meetings</h5>
+							<p>Look who's online and invite them to have a coffee (or a brunch) in your own meeting room</p>
+						</div>	
+					</div>
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb9.png" alt="thumb9">
+							</div>
+							<h5>Materials</h5>
+							<p>Upload e-brochures and presentations in different sessions inside your event</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb10.png" alt="thumb10">
+							</div>
+							<h5>Community</h5>
+							<p>Make friends and keep them posted about your next events</p>
+						</div>
+					</div>
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb11.png" alt="thumb11">
+							</div>
+							<h5>Networking</h5>
+							<p>Get invited to other events and increase your networking</p>
+						</div>
+					</div>
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb12.png" alt="thumb12">
+							</div>
+							<h5>Communicate</h5>
+							<p>Promote your event using custom-invitations and landing pages</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="images-block-thumbs images-block-thumbs-m">
+				<div class="row">
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb1.png" alt="thumb1">
+							</div>
+							<h5>Easy virtual meetings</h5>
+							<p>Start a Virtual Meeting with 3 click</p>
+						</div>
+					</div>
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb2.png" alt="thumb2">
+							</div>
+							<h5>Easy events and webinars</h5>
+							<p>Create your own event with multiple sessions in less than 5 minutes using a single form</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb4.png" alt="thumb4">
+							</div>
+							<h5>Knowledge showcase &trade;</h5>
+							<p>Feature your webinars in our exclusive Knowledge Showcase &trade;</p>
+						</div>
+					</div>
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb5.png" alt="thumb5">
+							</div>
+							<h5>Interact</h5>
+							<p>Navigate through our exclusive BrunchSpots&trade; observe other users and interact with them as you were in a real event</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb7.png" alt="thumb7">
+							</div>
+							<h5>Breakout sessions</h5>
+							<p>Provide the best breakout sessions experince to your guests, using GoBrunch's multiple rooms feature</p>
+						</div>
+					</div>
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb8.png" alt="thumb8">
+							</div>
+							<h5>Private meetings</h5>
+							<p>Look who's online and invite them to have a coffee (or a brunch) in your own meeting room</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb10.png" alt="thumb10">
+							</div>
+							<h5>Community</h5>
+							<p>Make friends and keep them posted about your next events</p>
+						</div>
+					</div>
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb11.png" alt="thumb11">
+							</div>
+							<h5>Networking</h5>
+							<p>Get invited to other events and increase your networking</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb3.png" alt="thumb3">
+							</div>
+							<h5>Customize</h5>
+							<p>Choose the place of your dream to host your event and the ideal room layout for your sessions</p>
+						</div>
+					</div>
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb6.png" alt="thumb6">
+							</div>
+							<h5>Live</h5>
+							<p>Broadcast live using only your browser, share your screen at any time and invite other presenters or guests to participate</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb9.png" alt="thumb9">
+							</div>
+							<h5>Materials</h5>
+							<p>Upload e-brochures and presentations in different sessions inside your event</p>
+						</div>
+					</div>
+					<div class="thumb-image">
+						<div class="thumb-image-content">
+							<div class="image-content">
+								<img src="img/thumb12.png" alt="thumb12">
+							</div>
+							<h5>Communicate</h5>
+							<p>Promote your event using custom-invitations and landing pages</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="info-block">
+			<h2>
+				... 100% free
+			</h2>
+			<p>
+				No Limits! We are very excited to be able to provide you this modern and captivating environment for free, using the most advanced broadcasting technologies available in a smart way. Get ready for the best experience you ever has in online events, live meetings and virtual trainings.
+			</p>
+			<button>start now</button>
+		</div>
+	</section>
+</main>
+<footer>
+	<div class="footer-logo">
+		<div class="footer-logo-block">
+			<img src="img/logo2.png" alt="logo-footer">
+		</div>
+	</div>
+	<ul class="footer-nav">
+		<li><a href="">Sign In</a></li>
+		<li><a href="">Sign Up</a></li>
+		<li><a href="">About Us</a></li>
+		<li><a href="">Contact Us</a></li>
+	</ul>
+</footer>
+
+<div id="myNav" class="overlay">
+	<div class="menu-logo">
+		<a href="javascript:void(0)" onclick="closeNav()"><img src="images/logo.png" /></a>
+	</div>
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<div class="overlay-content">
+		<div id="navnav">
+			<a href="#">ABOUT</a>
+			<a href="#">CONTACT</a>
+		</div>
+	</div>
+</div>
+
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>	
+<script src="js/main.js"></script>
+</body>
+</html>
