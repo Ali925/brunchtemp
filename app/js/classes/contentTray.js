@@ -1,0 +1,6 @@
+var ContentTray = (function(){
+
+		return {
+				
+		};
+})();

@@ -1,0 +1,3 @@
+ContentItem.prototype.JingleItem = function(){
+	
+};
